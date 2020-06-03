@@ -29,12 +29,16 @@ if __name__ == "__main__":
         sys.exit()
     
     # var assign
-    share = sys.argv[1]
-    value = getShareValue(share)
+    for i in range(1, len(sys.argv)):
+        share = sys.argv[i]
+        value = getShareValue(share)
 
-    # output
-    if value == None:
-        print("[-] No share found")
+        # output
+        if value == None:
+            print("[-] " + share + " was not found")
 
-    else:
-        print("[*] " + str(share) + ": " + str(value) + "€")
+        else:
+            print("[*] " + str(share) + ": " + str(value) + "€")
+
+    
+    
