@@ -1,2 +1,2 @@
 # ShareCrawler
-crawl for an share on google and return the value as string
+get the daily value of your share
