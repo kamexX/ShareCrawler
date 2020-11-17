@@ -1,2 +1,2 @@
 # ShareCrawler
-get the daily value of your share
+get the current value of your share in euro
